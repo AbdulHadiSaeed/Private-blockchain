@@ -1,0 +1,60 @@
+
+To brigh Private Ethereum blockchain
+geth --port 3000 --networkid 58343 --nodiscover --datadir=./blkchain --maxpeers=0  --rpc --rpcport 8543 --rpcaddr 127.0.0.1 --rpccorsdomain "*" --rpcapi "eth,net,web3,personal,miner" --"allow-insecure-unlock" 
+
+
+to connect with gethconsole
+
+geth attach http://127.0.0.1:8543
+
+making new account:
+
+ personal.newAccount('seed')
+
+Unlock account:
+
+ personal.unlockAccount(web3.eth.coinbase, "seed", 15000)
+
+Check accounts:
+
+eth.accounts
+
+
+
+
+to get dummy Ether
+
+web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+
+
+To verify that it is connected to block chain
+message = await Hello.deployed()
+ after upper command type
+"message" invertedcommas khud daale hy mena . jb command run krenge tb inveted commas ni honge ya verify
+krna ka lya use hoga
+
+
+ya dekhna ka lya ka apki block chain kis address sa connect hy aur hy bhi ya ni.
+
+message.address
+
+
+
+
+To check Balance
+ eth.getBalance(eth.coinbase)
+
+
+
+
+
+
+
+
+
+to download free courses of udemy
+http://milliononpcgames.com/category/python-courses/
+
+
+to download free courses of udemy
+http://resourcespoint.tech/index.php/2019/09/18/artificial-intelligence-masterclass/
