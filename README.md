@@ -1,4 +1,4 @@
-# Private-blockchain
+# Deploy Your Smart Contract on Private-blockchain
 deploy your smart contract on Private BlockChain using geth 
 
 Note: you need to install geth for this. To install geth you can go to https://geth.ethereum.org/downloads/
